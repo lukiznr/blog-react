@@ -1,0 +1,73 @@
+/* Mengatur tema biru */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f0f5ff;
+  padding: 7px;
+}
+/* Gaya bulat */
+nav,
+main {
+  border-radius: 10px;
+}
+/* Elemen-elemen spesifik */
+nav {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 7px;
+  margin-bottom: 7px;
+}
+header {
+  color: #fff;
+  text-align: center;
+}
+main {
+  background-color: #fff;
+  padding: 20px;
+}
+button {
+  border: 2px solid #4285f4;
+  border-radius: 5px;
+  background-color: white;
+  padding: 3px;
+}
+.list h2 {
+  color: #4285f4;
+  font-size: 24px;
+  padding: 10px;
+}
+.list p {
+  font-size: 16px;
+  padding: 5px;
+  color: #333;
+}
+.list {
+  border: 2px solid #4285f4;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.list:hover {
+  border: 2px solid #4285f4;
+  background-color: #f0f5ff;
+}
+.list:last-child {
+  margin: 0;
+}
+.blog {
+  border: 2px solid #4285f4;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.blog p:first-of-type {
+  margin: 5px;
+}
+.content {
+  background-color: #f0f5ff;
+  border-radius: 5px;
+  padding: 5px;
+}
