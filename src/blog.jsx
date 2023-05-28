@@ -8,7 +8,7 @@ export default function Blog() {
     <>
       <button
         onClick={() => {
-          navigate("/home");
+          navigate("/");
         }}
       >
         Back

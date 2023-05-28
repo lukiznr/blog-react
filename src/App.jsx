@@ -1,13 +1,5 @@
-import { useNavigate, useLocation, Outlet } from "react-router-dom";
-import { useEffect } from "react";
+import { Outlet } from "react-router-dom";
 export default function App() {
-  let location = useLocation();
-  const navigate = useNavigate();
-  useEffect(() => {
-    if (location.pathname === "/") {
-      navigate("/home");
-    }
-  }, []);
   return (
     <>
       <nav>

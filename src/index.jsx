@@ -8,7 +8,7 @@ export default function Index() {
         <div
           className="list"
           onClick={() => {
-            navigate(`/blog/${index}`);
+            navigate(`/${index}`);
           }}
         >
           <h2>{data.Title}</h2>
